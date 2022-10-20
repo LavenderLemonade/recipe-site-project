@@ -15,8 +15,28 @@ html, body
 .middle-strip
 {
     display: flex;
+    flex:1;
     height: 100%;
     width: 50%;
     background-color:darkblue;
 
+}
+
+.left-strip
+ {
+     display:flex;
+     flex:1;
+     height: 100%;
+     width: 25%;
+     padding-left: 0px;
+
+}
+
+.right-strip 
+{
+    display:flex;
+    flex:1;
+    height: 100%;
+    width: 25%;
+    padding-left: 0px;
 }
