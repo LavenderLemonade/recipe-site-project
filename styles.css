@@ -1,15 +1,21 @@
+/* General */
+
 html, body
 {
     height: 100%;
-    background-color: coral;
+    font-size: 1.5rem;
+    background-color: lightcoral;
 }
+
+
+/* container and strips */
 
 .container
 {
     display: flex;
     height: 100%;
     justify-content: center;
-    background-color: crimson;
+    background-color: lightblue;
 }
 
 .middle-strip
@@ -18,7 +24,7 @@ html, body
     flex:1;
     height: 100%;
     width: 50%;
-    background-color:darkblue;
+    background-color:lightseagreen;
 
 }
 
@@ -30,6 +36,9 @@ html, body
      width: 25%;
      padding-left: 0px;
 
+     /* Tried to center text - doesn't work... */
+     text-align: center;
+
 }
 
 .right-strip 
@@ -40,3 +49,10 @@ html, body
     width: 25%;
     padding-left: 0px;
 }
+
+/* Text */
+
+.center {
+    text-align: center;
+}
+
